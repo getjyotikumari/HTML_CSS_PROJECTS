@@ -1,0 +1,26 @@
+.menudropdown{
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+}
+.menudropdown ul{
+    padding: 0px;
+}
+.menudropdown ul li{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 200px;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.6;
+}
+.menudropdown ul li ul{
+    display: none;
+}
+.menudropdown ul li:hover > ul{
+    display: block;
+}

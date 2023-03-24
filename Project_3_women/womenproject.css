@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 5%;
+    width: 100%;
+    background-color:purple ;
+
+}
+.navbar1{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+}
+.header{
+    height:65%;
+    width: 100%;
+    background-image: url(./Image/About-Us-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    height:100%;
+    width :100%;
+    justify-content: center;
+    align-content: center;
+    font-style: normal;
+    padding-top: 5%;
+}

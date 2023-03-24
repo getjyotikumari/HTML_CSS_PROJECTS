@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navClass{
+    height: 130px;
+    width: 100vw;
+    /* background-color: red; */
+}
+.first{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(151,64,106);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 900px;
+    padding-right: 100px;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+.first a i{
+    font-size: 18px;
+}
+.second{
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.navbar{
+    width: 80%;
+    
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 120px;
+}
+.navbar ul li {
+    /* margin-left: 30px; */
+    padding: 5px 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);
+}
+.navbar ul li a:hover{
+    color: rgb(201, 182, 182);
+}
+.dropdown_menu{
+    display: none;
+}
+.navbar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* background-color: rgb(219, 213, 213); */
+    background-color: white;
+}
+.navbar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    /* width: 200px; */
+}
+.dropdown_menu ul li{
+    width: 200px;
+    padding: 10px;
+}
+.font i{
+    font-size: 20px;
+    color: rgb(151,64,106);
+}
+
+.hero{
+    /* margin-top: px; */
+    height: 900px;
+    
+}
+.body{
+    height: 500px;
+    background-image: url(./Image/hand.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* .forgotPassword {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+} */
+
+
+.loginPart {
+    margin-top: 60px;
+    height: 50%;
+
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=text], input[type=password]{
+    width: 150%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+    background-color: rgb(151,64,106);
+    color: white;
+    padding: 10px ;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 150%;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  button:hover{
+    background-color: rgb(231, 202, 202);
+    color: rgb(151,64,106);
+  }
+  .forgotPassword{
+    width: 150%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .forgotPassword a{
+    text-decoration: none;
+  }
+
+  .foooter{
+    margin-top: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(236,240,241);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.footerLogo{
+    width: 20%;
+}
+.contactUs{
+    width: 20%;
+    
+}
+.contactUs a{
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+}
+/* .contactUs i{
+    color: rgb(79,195,202);
+} */
+.icon{
+    color: rgb(79,195,202);
+    font-size: 30px;
+    
+}
+.contactUs i{
+    color: rgb(79,195,202);
+}
+.contactUs p{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.home{
+    width: 20%;
+}
+.faq{
+    width: 20%;
+}
+.home ul li {
+    list-style: none;
+}
+.home ul li a {
+    text-decoration: none;
+    color: rgb(187,103,149);
+}
+.faq ul li {
+    list-style: none;
+}
+.faq ul li a {
+    text-decoration: none;
+    color: rgb(187,103,149);
+}

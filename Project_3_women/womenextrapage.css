@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.navbar{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(151,64,106);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 900px;
+    padding-right: 100px;
+    /* height: 5%;
+    width: 100%;
+    background-color:purple ; */
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+
+    /* height: 15%;
+    width: 100%;
+    background-color: white; */
+}
+.navbar a{
+    font-size: 18px;
+}
+.second{
+    background-color: white;
+    height: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.navbar1{
+    width: 100%;
+    
+}
+.navbar1 ul{
+    list-style: none;
+    display: flex;
+    margin-left: 120px;
+}
+.navbar1 ul li {
+    /* margin-left: 30px; */
+    padding: 5px 20px;
+    position: relative;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);
+}
+.navbar1 ul li a:hover{
+    color: rgb(201, 182, 182);
+}
+.dropdown_menu{
+    display: none;
+}
+.navbar1 ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* background-color: rgb(219, 213, 213); */
+    background-color: white;
+}
+.navbar1 ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    /* width: 200px; */
+}
+.dropdown_menu ul li{
+    width: 200px;
+    padding: 10px;
+}
+.font i{
+    font-size: 20px;
+    color: rgb(151,64,106);
+}
+
+.content{
+    height:125%;
+    width :100%;
+    font-style: normal;
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 30%;
+}
+.foooter{
+    margin-top: 10%;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(236,240,241);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.footerLogo{
+    width: 20%;
+}
+.contactUs{
+    width: 20%;
+    
+}
+.contactUs a{
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+}
+/* .contactUs i{
+    color: rgb(79,195,202);
+} */
+.icon{
+    color: rgb(79,195,202);
+    font-size: 30px;
+    
+}
+.contactUs i{
+    color: rgb(79,195,202);
+}
+.contactUs p{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.home{
+    width: 20%;
+}
+.faq{
+    width: 20%;
+}
+.home ul li {
+    list-style: none;
+}
+.home ul li a {
+    text-decoration: none;
+    color: rgb(187,103,149);
+}
+.faq ul li {
+    list-style: none;
+}
+.faq ul li a {
+    text-decoration: none;
+    color: rgb(187,103,149);
+}
