@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.logo {
+    width: 8%;
+    height: 300%;
+    position: relative;
+    left: 50px;
+    top: 38px;
+}
+
+.navbar-items {
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid red;
+}
+
+.dropbtn a {
+    color: #8d0000;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #8d0000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.logo img {
+    height: 85%;
+    width: 85%;
+}
+
+.logo {
+    width: 8%;
+    height: 300%;
+    position: relative;
+    left: 50px;
+    top: 38px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #8d000079;
+}
+
+#planyourtrip {
+    width: 127px;
+}
+
+
+
+
+
+
+/* Footer */
+.footer-div {
+    height: 50vh;
+    width: 100vw;
+    background-image: linear-gradient(#8d000071, #8d00008f), url('/images/Footer_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 2%;
+}
+
+.footer-div div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div img {
+    height: 98%;
+    width: 70%;
+}
+
+.footer-help {
+    margin-left: -10%;
+    margin-right: 5%;
+}
+
+.footer-help p {
+    margin-top: 5%;
+}
+
+.footer-address p {
+    margin-top: 5%;
+}
+
+.footer-socialmedia {
+    height: 7%;
+    width: 20%;
+    position: absolute;
+    bottom: -45%;
+    left: 70%;
+}
+
+.footer-socialmedia a {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: #8d0000;
+}
+
+.footer-qlink ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-qlink ul li {
+    margin-top: 5%;
+}
+
+.footer-qlink ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-logo {
+    position: relative;
+    top: -9%;
+    height: 50vh;
+}
+
+/* Contanir */
+.container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    background-color: #F5F4F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    height: 50%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forgot_password {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+}
+
+.login-form h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 80%;
+    margin: 10px;
+    color: #260000;
+    font-size: 13px;
+    border: 1px;
+    border-color: #260000;
+    border-style: solid;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    width: 80%;
+    margin: 10px;
+    font-size: 13px;
+    border: 1px;
+    border-color: #260000;
+    border-style: solid;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #260000;
+    color: white;
+    font-size: 22px;
+}
+
+.div2 span {
+    color: #6C757D;
+}
+
+.forgot_password a {
+    color: #260000;
+}
+
+
+/* Signup form */
+.signup-form h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.signup-form {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.already-account {
+    text-align: center;
+}
+
+.already-account a {
+    color: #260000;
+}

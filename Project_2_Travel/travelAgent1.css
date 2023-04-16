@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar */
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.logo {
+  width: 8%;
+  height: 300%;
+  position: relative;
+  left: 50px;
+  top: 38px;
+}
+
+.navbar-items {
+  /* background-color: rebeccapurple; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: solid red;
+}
+
+.dropbtn a {
+  color: #8d0000;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: #8d0000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.logo img {
+  height: 85%;
+  width: 85%;
+}
+
+.logo {
+  width: 8%;
+  height: 300%;
+  position: relative;
+  left: 50px;
+  top: 38px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #8d000079;
+}
+
+#planyourtrip {
+  width: 127px;
+}
+
+
+
+.container{
+  margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(221, 160, 160); */
+}
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header img{
+    /* background-size: cover; */
+    height: 400px;
+    width: 100%;
+}
+.text{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+}
+.middle{
+  height: 80px;
+  width: 90%;
+  margin-left: 80px;
+  border: 2px solid rgb(226,226,218);
+  background-color: rgb(241,238,233);
+  display: flex;
+}
+.middle a{
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(38, 0, 0, 0.9);
+}
+a:hover{
+  text-decoration: underline;
+}
+.middle p{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.middle button{
+  margin-left: 650px;
+  height: 40px;
+  margin-top: 20px;
+  width: 290px;
+  background-color: rgb(58,23,23);
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.tableDetails{
+  margin-left: 80px;
+  margin-right: 60px;
+}
+.tableDetails table{
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #675655;
+}
+.tableDetails th,td{
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+.tableDetails th{
+  height: 40px;
+  width: 140px;
+  padding: 8px;
+  background: rgba(38, 0, 0, 0.9);
+  color: white;
+}
+.tableDetails li{
+  list-style: none;
+}
+.tableDetails i{
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+
+.footer-div {
+  margin-top: 400px;
+  height: 50vh;
+  width: 100vw;
+  background-image: linear-gradient(#8d000071, #8d00008f), url('/images/Footer_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 100vh;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding-top: 2%;
+}
+
+.footer-div div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div img {
+  height: 98%;
+  width: 60%;
+  margin-top: 4px;
+}
+
+.footer-help {
+  margin-left: -10%;
+  margin-right: 5%;
+}
+
+.footer-help p {
+  margin-top: 5%;
+}
+
+.footer-address p {
+  margin-top: 5%;
+}
+
+.footer-socialmedia {
+  height: 7%;
+  width: 20%;
+  position: absolute;
+  bottom: -45%;
+  left: 70%;
+ 
+}
+
+.footer-socialmedia a {
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: #8d0000;
+  margin-top: 400px;
+}
+
+.footer-qlink ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-qlink ul li {
+  margin-top: 5%;
+}
+
+.footer-qlink ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-logo {
+  position: relative;
+  top: -9%;
+  height: 50vh;
+}
