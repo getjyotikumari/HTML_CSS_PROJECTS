@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url("../Images/about\ is\ page\ 2.jpg");
+    background-size: cover; */
+    /* background-position: center; */
+}
+/* .container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../Images/foodhome.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.left{
+    width: 50%;
+    /* margin-top: 90px; */
+/* } */
+.right{
+    margin-top: 200px;
+    /* text-align: center; */
+    width: 50%;
+    float: right;
+    margin-right: 20px;
+} */
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 0 0 0;
+    background-image: url("../Images/foodhome.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_main .about_image img{
+    margin-top: 50px;
+    width: 650px;
+   height: 500px;
+}
+
+.about .about_main .about_text h1{
+    font-size: 45px;
+    position: relative;
+    bottom: 40px;
+}
+
+.about .about_main .about_text h1 span{
+    color: #facc22;
+    margin-right: 15px;
+}
+
+.about .about_main .about_text h3{
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.about .about_main .about_text .about_services{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about .about_main .about_text .about_services .s_1{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    background: #ececec;
+    padding: 10px;
+    border: 2px solid #facc22;
+    cursor: pointer;
+}
+
+.about .about_main .about_text .about_services .s_1 i{
+    color: #000;
+    margin: 5px 10px 5px 5px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.about .about_main .about_text .about_services .s_1:hover i{
+    color: #facc22;
+}
+
+.about .about_main .about_text .about_services .s_1 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.about .about_main .about_text .about_btn i{
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.about .about_main .about_text .about_btn{
+    position: relative;
+    top: 35px;
+    padding: 10px 20px;
+    border: 2px solid #facc22;
+    text-decoration: none;
+    color: #000;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.about .about_main .about_text .about_btn:hover{
+    color: #fff;
+}
+
+.about .about_main .about_text .about_btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: 2;
+    background: #facc22;
+    transition: 0.3s;
+}
+
+.about .about_main .about_text .about_btn:hover::before{
+    top: unset;
+    width: 100%;
+    bottom: 0;
+}
